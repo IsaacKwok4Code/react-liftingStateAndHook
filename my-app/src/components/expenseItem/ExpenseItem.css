@@ -1,0 +1,48 @@
+.expenseItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem;
+    background-color: #F0F8FF;
+    margin: 1rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.coverage {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    flex: 1;
+    @media (min-width: 580px) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex: 1;
+        font-size: 1.25rem;
+    }
+}
+
+.coverageTitle {
+    color: #A9A9A9;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.premium {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #6495ED;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    @media (min-width: 580px) {
+        font-size: 1.25rem;
+        padding: 0.5rem 1.5rem;
+    }
+}
